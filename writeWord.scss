@@ -4,7 +4,6 @@
     border:1px solid #aaa;
 }
 #controller {
-    width: 800px;
     margin:0 auto;
     .op_btn {
         float: right;
@@ -26,5 +25,38 @@
     }
     .clearfix {
         clear: both;
+    }
+    .color_btn {
+        float: left;
+        margin:10px 10px 0 0;
+        border:5px solid #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid violet;
+        }
+    }
+    .color_btn_selected {
+        border:5px solid blueviolet;
+    }
+    #black_btn {
+        background: #000;
+    }
+    #blue_btn {
+        background: blue;
+    }
+    #green_btn {
+        background: green;
+    }
+    #red_btn {
+        background: red;
+    }
+    #orange_btn {
+        background: orange;
+    }
+    #yellow_btn {
+        background: yellow;
     }
 }
